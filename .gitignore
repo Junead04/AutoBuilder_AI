@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Secrets
+.env
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs/errors
+*.log
+*.err
+*.out
+
+# Local Streamlit run logs
+streamlit*.log
+
+# Generated apps optional
+generated_project/
+agent/generated_project/
